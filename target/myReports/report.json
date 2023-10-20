@@ -1,0 +1,136 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2023-10-20T13:50:15.709Z",
+    "line" : 2,
+    "name" : "Verify Login for Valid inputs and display as Login Successful.",
+    "description" : "",
+    "id" : "login-action;verify-login-for-valid-inputs-and-display-as-login-successful.",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 10629078700,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "user is on homepage",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_is_on_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1311649700,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user clicks on Signin Link",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_clicks_on_signin_link()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 19871300,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "check Title",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.check_title()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 630183300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user enters username and password clicks on submit button",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_enters_username_and_password_clicks_on_submit_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 313648600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "validate the user and display Login Successful if user is valid",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.validate_the_user_and_display_login_successful_if_user_is_valid()"
+      },
+      "keyword" : "Then "
+    } ]
+  }, {
+    "start_timestamp" : "2023-10-20T13:50:28.725Z",
+    "line" : 9,
+    "name" : "Verify Login for InValid inputs and display error message.",
+    "description" : "",
+    "id" : "login-action;verify-login-for-invalid-inputs-and-display-error-message.",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4101972100,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "user is on homepage",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_is_on_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 2915221700,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user clicks on Signin Link",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_clicks_on_signin_link()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 45987600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "check Title",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.check_title()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "user enters invalid username or password clicks on submit button",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_enters_invalid_username_or_password_clicks_on_submit_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "Check for the error message",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.check_for_the_error_message()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TC001_Login.feature",
+  "tags" : [ ]
+} ]

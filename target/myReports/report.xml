@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="20.515">
+    <testcase classname="Login Action" name="Verify Login for Valid inputs and display as Login Successful." time="12.985">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user clicks on Signin Link.............................................passed
+Then check Title............................................................passed
+When user enters username and password clicks on submit button..............passed
+Then validate the user and display Login Successful if user is valid........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Action" name="Verify Login for InValid inputs and display error message." time="7.067">
+        <system-out><![CDATA[Given user is on homepage...................................................passed
+When user clicks on Signin Link.............................................passed
+Then check Title............................................................passed
+When user enters invalid username or password clicks on submit button.......passed
+Then Check for the error message............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
